@@ -1,16 +1,78 @@
-# React + Vite
+# 🌤 Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive weather application built using React.js and OpenWeather API.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://weather-app-react-vdh8.onrender.com
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Search weather by city name
+- Real-time weather updates
+- Temperature, humidity, min/max temperature
+- Responsive design
+- Modern glassmorphism UI
+- API integration using OpenWeather API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Vite
+- CSS3
+- Material UI
+- OpenWeather API
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/weather-app-react.git
+```
+
+Go to project folder:
+
+```bash
+cd weather-app-react
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create `.env` file:
+
+```env
+VITE_WEATHER_API_KEY=your_api_key
+```
+
+---
+
+## 🚀 Deployment
+
+Deployed using Render.
+
+---
+
+## 👩‍💻 Author
+
+Ranjitha Sangam S S
