@@ -1,0 +1,26 @@
+/* .InfoBox{
+    text-align: center;
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+} */
+
+.InfoBox {
+  margin-top: 20px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.weatherCard {
+  border-radius: 20px !important;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.weatherCard:hover {
+  transform: scale(1.03);
+}
